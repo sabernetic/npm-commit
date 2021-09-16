@@ -1,10 +1,10 @@
-name: 'Pakage version update and commit'
-description: 'Pakage version update and commit'
+name: 'NPM Pakage version update and commit'
+description: 'NPM Pakage version update and commit'
 inputs:
   what-to-do:  # id of input
     description: 'What to Do'
     required: true
-    default: 'Pakage version update and commit'
+    default: 'NPM Pakage version update and commit'
 runs:
   using: "composite"
   steps:
